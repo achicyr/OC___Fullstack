@@ -1,0 +1,12 @@
+[submodule "P4"]
+	path = P4
+	url = git@github.com:achicyr/ocr_project4_react.git
+[submodule "P5"]
+	path = P5
+	url = git@github.com:achicyr/ocr_project5.git
+[submodule "P6"]
+	path = P6
+	url = git@github.com:achicyr/ocr_project6.git
+[submodule "P7"]
+	path = P7
+	url = git@github.com:achicyr/ocr_p7.git
