@@ -1,0 +1,52 @@
+/* 0. CSS Modifications
+--------------------------------------------------------------------------------------------*/
+#masthead{font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;}
+#masthead img.custom-logo{
+	position: absolute;
+    left: 0;
+    width: 100px;}
+#masthead .header-outer-wrapper .col-md-12{text-align:center;}
+.titlebar-title h2{font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;}
+.header-outer-wrapper{background: linear-gradient(to bottom, white, silver);}
+.header-left.pull-left{float:unset;}
+#masthead .site-title a{color: gold;}
+#page{background: linear-gradient(goldenrod 5%, silver 10% 100%);}
+.titlebar-outer-wrapper{box-shadow: 0 0 1em 10px black;}
+#content{border-radius: 10px 10px 0 0;
+	padding-top: 3em;
+	border-top: solid gold;box-shadow: 0 0 1em 0.3em;
+	font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.3em;}
+#main>article{padding:1em 2em;
+	transition: all .1s}
+#main>article:hover{background: whitesmoke;
+	border-top:solid black;
+	border-bottom:solid black;
+	box-shadow:0 0 1em 5px;}
+article>.blog-thumb-wrapper{text-align:center}
+article>.blog-excerpt>p{column-count: 2;
+	column-gap: 40px;
+	column-rule: 4px double goldenrod;}
+.MYOWNCLaSS{position:absolute;
+	right:0;
+	top:0;}
+footer#colophon{padding-top:3em;
+	background:whitesmoke;
+    margin: 1em 0;
+	box-shadow: 0 0 1em 10px;
+    z-index: 10;
+    position: relative;}
+footer#colophon .widget-container {
+    border: solid;
+	padding: 1em;
+	margin: 1em 0;
+    background: white;
+    border-radius: 5px;}
+/*----------------------------------------------------------------------------------------------*/
+@media (min-width: 768px){
+.col-md-8 {
+    -ms-flex: unset;
+    flex: unset;
+    max-width: unset;
+}
+/*----------------------------------------------------------------------------------------------

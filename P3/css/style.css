@@ -1,0 +1,198 @@
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------variables----------------------------------------------------------------------------*/
+:root --gray {
+  color: #6d819c;
+}
+:root --silver {
+  color: #e4e7ec;
+}
+:root --green {
+  color: #55967e;
+}
+:root --blue {
+  color: #263959;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------selecteur----------------------------------------------------------------------------*/
+body {
+  background: url(../assets/img/fond1.png) 0 -3em;
+}
+
+body:before {
+  content: "";
+  background: url(../assets/img/fond2.jpg) 0 -1em/cover no-repeat;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+body *:not(.font1) {
+  font-family: "Gupter", serif;
+}
+
+a:not(.off):hover {
+  text-decoration: underline;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------fonts--------------------------------------------------------------------------------*/
+.font1 {
+  font-family: "Girassol", cursive;
+}
+
+body .color1, .gray {
+  color: #6d819c !important;
+}
+
+body .color2, .silver {
+  color: #e4e7ec !important;
+}
+
+body .color3, .green {
+  color: #55967e !important;
+}
+
+body .color4, .blue {
+  color: #263959 !important;
+}
+
+body .color1 *, .gray * {
+  color: #6d819c !important;
+}
+
+body .color2 *, .silver * {
+  color: #e4e7ec !important;
+}
+
+body .color3 *, .green * {
+  color: #55967e !important;
+}
+
+body .color4 *, .blue * {
+  color: #263959 !important;
+}
+
+body .bg1 {
+  background: #6d819c !important;
+}
+
+body .bg2 {
+  background: #e4e7ec !important;
+}
+
+body .bg3 {
+  background: #55967e !important;
+}
+
+body .bg4 {
+  background: #263959 !important;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.hoversh:hover, .hoversh_:hover {
+  box-shadow: 0 0 10px 1px black;
+}
+
+.hoversh_ {
+  transition: box-shadow 0.5s;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------imgs------------------------------------------------------------------------------*/
+.eye {
+  background: url("../assets/img/eye.png") center center no-repeat;
+  background-size: contain;
+}
+
+.register {
+  background: url("../assets/img/register.png") center center no-repeat;
+  background-size: contain;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------parts------------------------------------------------------------------------------*/
+body > header > nav.navbar {
+  border-bottom: solid var(--dark);
+}
+
+header > a.register_fixed {
+  position: fixed;
+  right: 1em;
+  top: 46%;
+  bottom: 46%;
+  width: 8%;
+}
+
+header > a.register_fixed > img {
+  height: 100%;
+}
+
+body > main:not(:hover) {
+  opacity: 0.92;
+}
+
+/*body>main:hover{box-shadow:0 0 10px 1px black}*/
+.row.list_films img.card-img-top {
+  height: 450px;
+}
+
+.list_films .float-right > a {
+  width: 50px;
+  height: 25px;
+}
+
+footer section:first-of-type {
+  border-radius: 10px 10px 0 0;
+}
+
+footer section:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+
+#displayFilm {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  height: 0;
+  transition: height 0.8s;
+  overflow: hidden;
+}
+
+#displayFilm.on {
+  height: 90%;
+}
+
+#displayFilm:not(.on) {
+  padding: 0 !important;
+  border: none !important;
+}
+
+#displayFilm > a {
+  height: 75px;
+  margin: 2em 0;
+}
+
+#displayFilm > span.closeit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: black;
+  color: red;
+  cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------pages------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------classes------------------------------------------------------------------------------*/
+.carousel-inner img.d-block.w-100 {
+  height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
