@@ -10,3 +10,6 @@
 [submodule "P7"]
 	path = P7
 	url = git@github.com:achicyr/ocr_p7.git
+[submodule "P8"]
+	path = P8
+	url = git@github.com:achicyr/ocr_projet8.git
